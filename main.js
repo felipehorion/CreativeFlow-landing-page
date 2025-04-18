@@ -36,3 +36,15 @@ ScrollReveal().reveal(".hero-image img", {
   origin: "right",
   delay: 800,
 });
+
+// About section animations
+ScrollReveal().reveal(".about-image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+ScrollReveal().reveal(".about-text h3", { ...scrollRevealOption, delay: 400 });
+ScrollReveal().reveal(".about-text p", { ...scrollRevealOption, delay: 600 });
+ScrollReveal().reveal(".about-features li", {
+  ...scrollRevealOption,
+  interval: 200,
+});
