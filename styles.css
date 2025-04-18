@@ -64,6 +64,38 @@ body {
   margin: 20px auto 0;
 }
 
+/* Buttons */
+.primary-button,
+.secondary-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.primary-button:hover {
+  background-color: #8b5cf6; /* Darker Lavender */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.secondary-button:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
 /* Navigation Bar */
 .navbar {
   background-color: var(--white);
