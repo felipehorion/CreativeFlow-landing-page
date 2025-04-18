@@ -121,3 +121,42 @@ body {
   color: var(--text-dark);
   cursor: pointer;
 }
+
+/* Hero Section */
+.hero {
+  padding: 120px 0;
+  background-color: #f0f4f8; /* Light Gray Background */
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-content .hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-content .hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.hero-content .hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}

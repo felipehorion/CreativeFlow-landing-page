@@ -15,3 +15,24 @@ navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
+
+// ScrollReveal options for animations
+const scrollRevealOption = {
+  distance: "60px",
+  origin: "bottom",
+  duration: 1200,
+  delay: 200,
+};
+
+// Hero section animations
+ScrollReveal().reveal(".hero-content h1", { ...scrollRevealOption });
+ScrollReveal().reveal(".hero-content p", { ...scrollRevealOption, delay: 400 });
+ScrollReveal().reveal(".hero-content .hero-buttons", {
+  ...scrollRevealOption,
+  delay: 600,
+});
+ScrollReveal().reveal(".hero-image img", {
+  ...scrollRevealOption,
+  origin: "right",
+  delay: 800,
+});
