@@ -48,3 +48,9 @@ ScrollReveal().reveal(".about-features li", {
   ...scrollRevealOption,
   interval: 200,
 });
+
+// Services section animations
+ScrollReveal().reveal(".services-grid .service-card", {
+  ...scrollRevealOption,
+  interval: 300,
+});
