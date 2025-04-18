@@ -60,3 +60,25 @@ ScrollReveal().reveal(".portfolio-grid .portfolio-item", {
   ...scrollRevealOption,
   interval: 300,
 });
+
+// Contact section animations
+ScrollReveal().reveal(".contact-form h3", { ...scrollRevealOption });
+ScrollReveal().reveal(".contact-form .form-group", {
+  ...scrollRevealOption,
+  delay: 200,
+  interval: 150,
+});
+ScrollReveal().reveal(".contact-form button", {
+  ...scrollRevealOption,
+  delay: 400,
+});
+ScrollReveal().reveal(".contact-info h3", {
+  ...scrollRevealOption,
+  origin: "right",
+});
+ScrollReveal().reveal(".contact-info p, .contact-info .social-links a", {
+  ...scrollRevealOption,
+  origin: "right",
+  delay: 200,
+  interval: 150,
+});
