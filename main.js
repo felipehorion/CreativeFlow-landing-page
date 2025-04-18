@@ -54,3 +54,9 @@ ScrollReveal().reveal(".services-grid .service-card", {
   ...scrollRevealOption,
   interval: 300,
 });
+
+// Portfolio section animations
+ScrollReveal().reveal(".portfolio-grid .portfolio-item", {
+  ...scrollRevealOption,
+  interval: 300,
+});
